@@ -56,8 +56,3 @@ else
     PrintArray(matrix);
     ReplaceStringsAndColumns(matrix, NumberStrings, NumberColumns);
 }
-
-
-
-
-
