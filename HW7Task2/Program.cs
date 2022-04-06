@@ -32,7 +32,7 @@ int[,] ProductOfMatrices(int[,] matrA, int[,] matrB)
             for (int k = 0; k < matrB.GetLength(0); k++)
             {
                 C[i, j] += matrA[i, k] * matrB[k, j];
-                // 
+                                                                   // по этапный разбор циклов для себя
                     //i = 0, j<(количества столбцов матрицы B(4)), k<(количества строк матрицы B(3))
 
                     //с[0,0]=  0 + matrA[0, 0] * matrB[0, 0] = 0 + 0 * 7 +  
