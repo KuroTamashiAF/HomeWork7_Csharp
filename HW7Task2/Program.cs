@@ -49,15 +49,7 @@ int[,] ProductOfMatrices(int[,] matrA, int[,] matrB)
 
                     //c[0,3] = 0 + matrA[0, 0] * matrB[0, 3] = 0 + 0 * 9 = 
                     //       + 0 + matrA[0, 1] * matrB[1, 3] = 0 + 1 * 4 = 
-                    //       + 4 + matrA[0, 2] * matrB[2, 3] = 4 + 1 * 4 = 8
-
-                    //i = 1, j<(количества столбцов матрицы B(4)), k<(количества строк матрицы B(3))
-                    //C[i, j] += matrA[i, k] * matrB[k, j];
-
-                    //c[1,0] = 0 + matrA[1, 0] * matrB[0, 0] = 0 + 0 * 7 + 
-                    //       + 0 + matrA[1, 1] * matrB[1, 0] = 0 + 6 * 5 + 
-                    //      + 30 + matrA[1, 2] * matrB[2, 0] =30 + 9 * 5 = 75
-                    
+                    //       + 4 + matrA[0, 2] * matrB[2, 3] = 4 + 1 * 4 = 8     
             }
         }
     }
